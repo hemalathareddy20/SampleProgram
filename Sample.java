@@ -5,6 +5,7 @@ public class Sample {
   Sample a2=new Sample("test1");
   Sample a3=new Sample("test2",10);
   System.out.println(Sample.a);
+   Sample.add();
   }
   Sample(String i) {
   System.out.println(i);
